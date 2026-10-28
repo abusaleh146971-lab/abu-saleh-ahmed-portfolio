@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abu Saleh Ahmed | Marketing, Sales & Customer Operations Professional</title>
+<meta name="description" content="Abu Saleh Ahmed, Jashore, Bangladesh. Experienced in sales administration, customer relationship management, team coordination, business development, CRM operations, documentation and compliance.">
+<meta name="author" content="Abu Saleh Ahmed">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Abu Saleh Ahmed | Marketing, Sales & Customer Operations Professional">
+<meta property="og:description" content="Professional portfolio: experience, education, training, skills and contact details.">
+<style>
+:root{--navy:#0F2C59;--blue:#2374BD;--bg:#fff;--gray:#F4F6FA;--line:#E1E6EF;--text:#1F2937;--muted:#5B6575}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.65}
+a{color:var(--blue)}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1050px;margin:0 auto;padding:0 20px}
+section{padding:64px 0}
+section.alt{background:var(--gray)}
+h2{color:var(--navy);font-size:1.7rem;margin-bottom:6px}
+h2::after{content:"";display:block;width:48px;height:4px;background:var(--blue);border-radius:4px;margin:8px 0 28px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--navy);color:#fff;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+/* Nav */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(6px)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:58px}
+.brand{font-weight:700;color:var(--navy);text-decoration:none}
+nav ul{display:flex;gap:4px;list-style:none}
+nav a{display:block;padding:8px 10px;border-radius:8px;color:var(--navy);text-decoration:none;font-size:.9rem;font-weight:500}
+nav a:hover{background:var(--gray);color:var(--blue)}
+#menuBtn{display:none;background:none;border:1px solid var(--line);border-radius:8px;padding:7px 11px;font-size:1.1rem;color:var(--navy);cursor:pointer}
+@media(max-width:860px){
+#menuBtn{display:block}
+nav ul{display:none;position:absolute;left:0;right:0;top:58px;background:#fff;flex-direction:column;padding:10px 20px 16px;border-bottom:1px solid var(--line)}
+nav ul.open{display:flex}
+nav a{padding:12px 8px;font-size:1rem}}
+/* Hero */
+.hero{padding:56px 0 64px;background:linear-gradient(160deg,#fff 55%,#EAF1FA)}
+.hero .wrap{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:center}
+.hero small{color:var(--blue);font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.hero h1{color:var(--navy);font-size:clamp(2rem,5vw,3.1rem);line-height:1.15;margin:8px 0}
+.hero h3{font-size:1.15rem;color:var(--blue);margin-bottom:14px}
+.hero p{color:var(--muted);max-width:60ch}
+.meta{margin:16px 0 22px;display:flex;flex-wrap:wrap;gap:8px 20px;font-size:.95rem}
+.meta a{color:var(--navy);font-weight:500}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:11px 20px;border-radius:999px;border:2px solid var(--navy);background:var(--navy);color:#fff;text-decoration:none;font-weight:600;font-size:.95rem;cursor:pointer;font-family:inherit;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:var(--blue);border-color:var(--blue)}
+.btn.ghost{background:#fff;color:var(--navy)}
+.btn.ghost:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+#cvMsg{display:none;margin-top:10px;font-size:.9rem;color:#8a4b00;background:#FFF4E0;border-radius:8px;padding:8px 12px;max-width:460px}
+.photo{width:min(280px,70vw);aspect-ratio:1;margin:0 auto;border-radius:50%;border:6px solid #fff;box-shadow:0 10px 30px rgba(15,44,89,.18);background:linear-gradient(135deg,var(--navy),var(--blue));display:flex;align-items:center;justify-content:center;color:#fff;font-size:4rem;font-weight:700;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover}
+@media(max-width:760px){.hero .wrap{grid-template-columns:1fr;text-align:center}.hero p{margin:0 auto}.meta,.btns{justify-content:center}.photo{order:-1}#cvMsg{margin-inline:auto}}
+/* Cards */
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;transition:box-shadow .2s,transform .2s}
+.card:hover{box-shadow:0 8px 22px rgba(15,44,89,.09)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card h3{color:var(--navy);font-size:1.05rem}
+.card .sub{color:var(--muted);font-size:.93rem}
+.tag{display:inline-block;background:#EAF1FA;color:var(--navy);border-radius:999px;padding:4px 12px;font-size:.85rem;margin:4px 4px 0 0}
+#about p{max-width:75ch;margin-bottom:14px}
+/* Timeline */
+.timeline{position:relative;padding-left:26px;border-left:3px solid var(--line)}
+details.job{position:relative;margin-bottom:16px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:0}
+details.job::before{content:"";position:absolute;left:-36px;top:22px;width:15px;height:15px;border-radius:50%;background:var(--blue);border:3px solid #fff;box-shadow:0 0 0 2px var(--blue)}
+details.job summary{list-style:none;cursor:pointer;padding:16px 46px 16px 20px;position:relative}
+details.job summary::-webkit-details-marker{display:none}
+details.job summary::after{content:"+";position:absolute;right:18px;top:14px;font-size:1.5rem;color:var(--blue)}
+details.job[open] summary::after{content:"–"}
+.job h3{color:var(--navy);font-size:1.05rem}
+.job .org{color:var(--blue);font-weight:600}
+.job .date{color:var(--muted);font-size:.88rem}
+.job ul{padding:0 20px 18px 40px;color:var(--text)}
+.job li{margin-bottom:5px}
+.job .note{padding:0 20px 14px;color:var(--muted);font-size:.92rem}
+/* Social / contact */
+.social{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.social a{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:#fff;text-decoration:none;color:var(--navy);font-weight:600}
+.social a:hover{border-color:var(--blue);transform:translateY(-2px)}
+.ico{width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700}
+.contact{max-width:560px}
+.contact p{margin:6px 0}
+.contact .btns{margin-top:16px}
+footer{background:var(--navy);color:#cfd9ea;text-align:center;padding:26px 20px;font-size:.9rem}
+#top{position:fixed;right:18px;bottom:18px;width:44px;height:44px;border-radius:50%;border:0;background:var(--blue);color:#fff;font-size:1.3rem;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s;box-shadow:0 4px 12px rgba(0,0,0,.25)}
+#top.show{opacity:1;pointer-events:auto}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+@media print{header,#top,#menuBtn,.btns,.social,.skip{display:none!important}section{padding:20px 0}details.job>*{display:block}details.job ul{display:block}body{color:#000}.hero{background:#fff}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header>
+ <div class="wrap bar">
+  <a class="brand" href="#home">Abu Saleh Ahmed</a>
+  <button id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu">☰</button>
+  <nav aria-label="Main">
+   <ul id="menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#training">Training</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#social">Social Media</a></li>
+    <li><a href="#contact">Contact</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+ <div class="wrap">
+  <div>
+   <small>Portfolio</small>
+   <h1>Abu Saleh Ahmed</h1>
+   <h3>Marketing, Sales &amp; Customer Operations Professional</h3>
+   <p>Experienced in sales administration, customer relationship management, inbound and outbound customer communication, team coordination, business development, CRM operations, documentation, and operational compliance.</p>
+   <div class="meta">
+    <span>📍 Jashore, Bangladesh</span>
+    <a href="tel:+8801671146971">📞 +8801671146971</a>
+    <a href="mailto:abusaleh4973@gmail.com">✉️ abusaleh4973@gmail.com</a>
+   </div>
+   <div class="btns">
+    <a class="btn" href="#experience">View My Experience</a>
+    <a class="btn ghost" id="cvBtn" href="assets/Abu_Saleh_Ahmed_CV.pdf" download>Download My CV</a>
+    <a class="btn ghost" href="#contact">Contact Me</a>
+   </div>
+   <div id="cvMsg" role="status">My CV is not available for download right now. Please contact me by email and I will send it.</div>
+  </div>
+  <!-- PROFILE PHOTO: put your picture at assets/profile.jpg. Until then, initials are shown. -->
+  <div class="photo" id="photoBox"><img src="assets/profile.jpg" alt="Portrait of Abu Saleh Ahmed" id="photoImg"></div>
+ </div>
+</section>
+
+<section id="about" class="alt">
+ <div class="wrap">
+  <h2>About Me</h2>
+  <p>I am a versatile professional based in Jashore, Bangladesh, with experience across marketing and sales, customer service, team supervision, sales administration, client relationship management, operational support, documentation, and compliance.</p>
+  <p>My work has ranged from coordinating large customer-service and delivery teams to handling vehicle registration paperwork and maintaining CRM records. I bring adaptability, clear communication, a focus on customer satisfaction, practical problem-solving, teamwork, and careful administrative accuracy to every role.</p>
+  <p>I hold a Master of Arts in Sociology and have completed training in brand marketing and field sales.</p>
+ </div>
+</section>
+
+<section id="experience">
+ <div class="wrap">
+  <h2>Professional Experience</h2>
+  <div class="timeline" id="jobs"></div>
+ </div>
+</section>
+
+<section id="education" class="alt">
+ <div class="wrap">
+  <h2>Education</h2>
+  <div class="grid" id="edu"></div>
+ </div>
+</section>
+
+<section id="training">
+ <div class="wrap">
+  <h2>Professional Training</h2>
+  <div class="grid" id="trn"></div>
+ </div>
+</section>
+
+<section id="skills" class="alt">
+ <div class="wrap">
+  <h2>Skills</h2>
+  <div class="grid" id="skl"></div>
+ </div>
+</section>
+
+<section id="social">
+ <div class="wrap">
+  <h2>Connect With Me</h2>
+  <div class="social" id="soc"></div>
+  <p id="socEmpty" class="sub" style="display:none;color:var(--muted)">Social profiles will appear here soon. For now, please reach me by phone or email below.</p>
+ </div>
+</section>
+
+<section id="contact" class="alt">
+ <div class="wrap">
+  <h2>Contact</h2>
+  <div class="card contact">
+   <h3>Abu Saleh Ahmed</h3>
+   <p>📍 Jashore, Bangladesh</p>
+   <p>📞 <a href="tel:+8801671146971">+8801671146971</a></p>
+   <p>✉️ <a href="mailto:abusaleh4973@gmail.com">abusaleh4973@gmail.com</a></p>
+   <div class="btns">
+    <a class="btn" href="tel:+8801671146971">Call Me</a>
+    <a class="btn ghost" href="mailto:abusaleh4973@gmail.com?subject=Enquiry%20from%20your%20portfolio">Send an Email</a>
+   </div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>© <span id="yr"></span> Abu Saleh Ahmed. All rights reserved.</footer>
+<button id="top" aria-label="Back to top">↑</button>
+
+<script>
+/* =====================================================
+   EDIT HERE: SOCIAL PROFILE LINKS
+   Paste your full profile URL between the quotes, e.g.
+   linkedin: "https://www.linkedin.com/in/your-name"
+   Leave "" (empty) to hide that button.
+   ===================================================== */
+const profileLinks = {
+  linkedin: "",
+  facebook: "",
+  instagram: "",
+  youtube: "",
+  x: "",
+  other: ""            // optional: any other professional profile or site
+};
+
+/* WhatsApp button is OFF by default so your number is not exposed.
+   To show it, change showWhatsApp to true. */
+const whatsapp = { showWhatsApp: false, number: "8801671146971" };
+
+/* ---------- Portfolio data ---------- */
+const jobs = [
+ {t:"Chief Marketing & Sales Associate",o:"Codevioso",d:"11 August 2026 – Present",l:"Jashore, Bangladesh",r:[
+  "Marketing campaign support and business development.",
+  "Prospective client communication and lead support.",
+  "Sales initiatives and market presence development.",
+  "Marketing coordination and professional communication.",
+  "Support for software, website, and digital solution marketing."]},
+ {t:"Senior Inbound Executive & Compliance Manager",o:"Sheba.xyz",d:"10 June 2026 – 10 August 2026",r:[
+  "Inbound customer communication and service request management.",
+  "Customer issue escalation and complaint handling.",
+  "SOP compliance, quality checks, and operational documentation.",
+  "KPI monitoring, reporting, and coordination with relevant teams.",
+  "Support for customer experience and operational process improvement."]},
+ {t:"Senior Key Account Manager (Contractual)",o:"ArBit Creative Hub",d:"01 February 2026 – 30 May 2026",r:[
+  "Client relationship management and account coordination.",
+  "Customer communication and follow-up.",
+  "Sales coordination and client requirement management.",
+  "Support for service delivery and account documentation."]},
+ {t:"Sales Administration & Documentation Executive",o:"M/S. Orion Motor",c:"Yamaha Distribution Showroom",d:"01 June 2025 – 31 December 2025",r:[
+  "Handled inbound and outbound customer calls regarding motorcycle sales, documentation, registration, and customer support.",
+  "Created and maintained showroom-related documents and customer files through the Yamaha Portal.",
+  "Prepared and submitted motorcycle-related documents to BRTA offices and followed up on registration documentation.",
+  "Coordinated with BRTA offices regarding motorcycle registration papers, vehicle ownership documents, and related formalities.",
+  "Processed relevant online applications through the Bangladesh Service Portal (BSP) for vehicle registration and driving licence-related services.",
+  "Coordinated bank payments and maintained relevant payment records.",
+  "Updated showroom sales accounts, customer information, and transaction records in the CRM system.",
+  "Followed up with customers regarding pending documents, application status, and service requirements."]},
+ {t:"Deputy In-charge",o:"Chaldal.com",d:"15 January 2021 – 15 April 2025",r:[
+  "Supported customer service and operational management.",
+  "Monitored delivery operations and service performance.",
+  "Coordinated team activities and operational workflows.",
+  "Assisted with administrative responsibilities and reporting.",
+  "Supported agent software setup, updates, and day-to-day operational requirements.",
+  "Responsible for coordinating a team of approximately 170 people across two shifts."]},
+ {t:"Marketing & Sales Manager (Contractual)",o:"Winston Japan Tobacco",d:"06 January 2019 – 30 June 2019",r:[
+  "Marketing and sales coordination.",
+  "Field sales support and market activities.",
+  "Customer and retailer relationship management.",
+  "Support for sales reporting and promotional activities."]},
+ {t:"Credit Officer",o:"RRP",d:"02 December 2017 – 30 June 2018",r:[
+  "Credit-related administrative support.",
+  "Customer record maintenance.",
+  "Documentation and recordkeeping.",
+  "Coordination of relevant credit operations."]}
+];
+const edu = [
+ {n:"Master of Arts (MA) in Sociology",i:"Government M. M. College",r:"CGPA 3.09 out of 4.00",y:"2022"},
+ {n:"Bachelor of Arts (BA)",i:"Government M. M. College",s:"Subject: Sociology",r:"CGPA 3.08 out of 4.00",y:"2017"},
+ {n:"Higher Secondary Certificate (HSC)",i:"BAF Shaheen College",s:"Group: Humanities",r:"GPA 3.80 out of 5.00",y:"2011"},
+ {n:"Secondary School Certificate (SSC)",i:"Jashore Zilla School",s:"Group: Science",r:"GPA 3.69 out of 5.00",y:"2009"}
+];
+const training = [
+ {n:"Brand Marketing Training",o:"Winston Japan Tobacco",d:"7 days",y:"2019"},
+ {n:"Field Sales Training",o:"ACI",d:"1 month",y:"2019"}
+];
+const skills = {
+ "Sales & Marketing":["Sales Administration","Sales Coordination","Field Sales Support","Marketing Coordination","Business Development Support","Customer Relationship Management"],
+ "Customer Service & Communication":["Inbound and Outbound Call Handling","Customer Support","Complaint Resolution","Client Communication","Customer Follow-up","Service Coordination"],
+ "Operations & Administration":["Team Coordination","Operational Monitoring","SOP and Compliance Support","Documentation Management","CRM Data Updates","Sales Account Records","Reporting and Recordkeeping","BRTA and Vehicle Documentation Coordination"],
+ "Digital & Office Skills":["Microsoft Office","Google Workspace","Microsoft Excel and Google Sheets","CRM Systems","Online Form Processing","Digital Record Management"]
+};
+
+/* ---------- Helpers ---------- */
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+/* ---------- Render ---------- */
+$("jobs").innerHTML = jobs.map((j,i) => `
+ <details class="job"${i===0?" open":""}>
+  <summary>
+   <h3>${esc(j.t)}</h3>
+   <div class="org">${esc(j.o)}</div>
+   <div class="date">${esc(j.d)}${j.l?" · "+esc(j.l):""}</div>
+  </summary>
+  ${j.c?`<p class="note">${esc(j.c)}</p>`:""}
+  <ul>${j.r.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+ </details>`).join("");
+
+$("edu").innerHTML = edu.map(e => `
+ <div class="card"><h3>${esc(e.n)}</h3>
+  <p class="sub">${esc(e.i)}</p>
+  ${e.s?`<p class="sub">${esc(e.s)}</p>`:""}
+  <p class="sub">${esc(e.r)}</p>
+  <p class="sub"><strong>${esc(e.y)}</strong></p></div>`).join("");
+
+$("trn").innerHTML = training.map(t => `
+ <div class="card"><h3>${esc(t.n)}</h3>
+  <p class="sub">${esc(t.o)}</p>
+  <p class="sub">Duration: ${esc(t.d)} · ${esc(t.y)}</p></div>`).join("");
+
+$("skl").innerHTML = Object.entries(skills).map(([k,v]) => `
+ <div class="card"><h3>${esc(k)}</h3>
+  <div>${v.map(s=>`<span class="tag">${esc(s)}</span>`).join("")}</div></div>`).join("");
+
+/* Social buttons: empty URLs are skipped */
+const socials = [
+ ["linkedin","LinkedIn","in"],["facebook","Facebook","f"],["instagram","Instagram","ig"],
+ ["youtube","YouTube","▶"],["x","X (Twitter)","X"],["other","Other Profile","↗"]
+];
+let socHTML = "";
+socials.forEach(([k,label,ic]) => {
+  const url = (profileLinks[k]||"").trim();
+  if (/^https?:\/\//i.test(url))
+    socHTML += `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer"><span class="ico" aria-hidden="true">${ic}</span>${label}</a>`;
+});
+const num = (whatsapp.number||"").replace(/\D/g,"");
+if (whatsapp.showWhatsApp && num)
+  socHTML += `<a href="https://wa.me/${num}" target="_blank" rel="noopener noreferrer"><span class="ico" aria-hidden="true">wa</span>WhatsApp</a>`;
+$("soc").innerHTML = socHTML;
+if (!socHTML) $("socEmpty").style.display = "block";
+
+/* Profile photo fallback: initials if image missing */
+$("photoImg").addEventListener("error", () => { $("photoBox").textContent = "ASA"; });
+
+/* CV button: handle a missing file gracefully */
+(function(){
+  const btn = $("cvBtn"), msg = $("cvMsg"), path = btn.getAttribute("href");
+  const showMissing = () => { btn.style.display = "none"; msg.style.display = "block"; };
+  if (location.protocol === "file:") {
+    // Local browsing: a file check is not possible, so test on click
+    btn.addEventListener("click", () => {
+      const img = new XMLHttpRequest();
+      try { img.open("HEAD", path, false); img.send(); if (img.status && img.status >= 400) { event.preventDefault(); showMissing(); } }
+      catch(e){ /* browser blocks the check locally; allow the normal download attempt */ }
+    });
+  } else {
+    fetch(path, {method:"HEAD"}).then(r => { if (!r.ok) showMissing(); }).catch(showMissing);
+  }
+})();
+
+/
