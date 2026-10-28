@@ -1,0 +1,27 @@
+3. README: how to customize
+Photo: Save a square, clear photo as assets/profile.jpg. Until then, the initials “ASA” show instead.
+Social links: Find const profileLinks near the top of the <script>. Paste each full URL (starting with https://) between the quotes. Any empty entry stays hidden.
+WhatsApp: Hidden by default so your number isn’t public. To show it, change showWhatsApp: false to true.
+CV: Put your PDF at assets/Abu_Saleh_Ahmed_CV.pdf. Once the site is published, the button hides itself and shows a friendly message if the file is missing.
+Text changes: Experience, education, training and skills are in the jobs, edu, training and skills lists in the script. Edit the text inside the quotes only.
+Colors: They are defined at the top of the CSS (--navy and --blue).
+4. Free publishing with GitHub Pages
+Create a free account at github.com.
+Tap New repository, name it abusaleh-portfolio, set it to Public, and create it.
+Tap Add file → Upload files. Upload index.html, then upload the assets folder (or its files), and tap Commit changes.
+Open Settings → Pages. Under Branch, choose main and / (root), then Save.
+After 1–2 minutes your site is live at https://YOUR-USERNAME.github.io/abusaleh-portfolio/. No paid domain is needed.
+
+Local testing: Save the code as index.html on your computer or Android phone and open it in Chrome. On Android, a file manager can open it with Chrome.
+
+5. Checklist
+ Profile photo saved as assets/profile.jpg
+ CV saved as assets/Abu_Saleh_Ahmed_CV.pdf
+ LinkedIn, Facebook, Instagram, YouTube and X URLs pasted into profileLinks (only the ones you use)
+ Decide whether to turn on the WhatsApp button
+ Open the site on your phone and check the menu, the buttons and the expandable experience cards
+ Try the contact links: the call and email links should open your phone and mail apps
+
+I have not run this in a browser from here, so please do that last check yourself. If any part misbehaves on your phone, tell me which and I’ll fix it.
+
+A note on one claim: the Chaldal entry says you were “responsible for coordinating a team of approximately 170 people across two shifts,” with no performance results attached. Adjust the wording if you’d like it more precise.
